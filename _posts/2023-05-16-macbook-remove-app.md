@@ -1,7 +1,7 @@
 ---
 layout: post
 title: MacBook删除顽固App图标
-categories: [MacBook, 工具]
+categories: [MacBook]
 description: 某些情况下（感觉是Mac的bug），删除MacBook上应用之后，启动台上依然留存着App的图标，牛皮癣一样
 keywords: MacBook
 mermaid: false
