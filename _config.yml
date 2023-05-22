@@ -146,8 +146,8 @@ comments_provider: gitalk
 # !!!重要!!! 请修改下面这些信息为你自己申请的
 # !!!Important!!! Please modify infos below to yours
 # disqus 配置参考：https://disqus.com
-disqus:
-    username: 
+# disqus:
+#     username: 
 # gitment 配置参考：https://imsun.net/posts/gitment-introduction/
 # gitment:
 #     owner: mz9login
@@ -158,21 +158,21 @@ disqus:
 # gitalk 配置参考：https://github.com/gitalk/gitalk#install
 gitalk:
     owner: wuxiaobai137
-    repo: blog-comments
+    repo: wuxiaobai137.github.io
     clientID: 2fb89ed21038184e9696
     clientSecret: d11a107b429805b9e730e7122f10ab0e2d720d87
 # utterances 配置参考：https://utteranc.es/
-utterances:
-    repo: mz9login/blog-comments
+# utterances:
+#     repo: mz9login/blog-comments
 # beaudar 配置参考：https://beaudar.lipk.org/
-beaudar:
-    repo: mz9login/blog-comments
+# beaudar:
+#     repo: mz9login/blog-comments
 # giscus 配置参考：https://giscus.app/zh-CN
-giscus:
-    repo: mz9login/blog-comments
-    repo-id: MDEwOlJlcG9zaXRvcnk5MzEyNzkxNw==
-    category: Announcements
-    category-id: DIC_kwDOBY0E7c4CRtg9
+# giscus:
+#     repo: mz9login/blog-comments
+#     repo-id: MDEwOlJlcG9zaXRvcnk5MzEyNzkxNw==
+#     category: Announcements
+#     category-id: DIC_kwDOBY0E7c4CRtg9
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : false
 
