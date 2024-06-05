@@ -1,13 +1,2 @@
-export const categoriesMap = {"category":{"/":{"path":"/category/","map":{}}},"tag":{"/":{"path":"/tag/","map":{}}}};
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept();
-  if (__VUE_HMR_RUNTIME__.updateBlogCategory)
-    __VUE_HMR_RUNTIME__.updateBlogCategory(categoriesMap);
-}
-
-if (import.meta.hot)
-  import.meta.hot.accept(({ categoriesMap }) => {
-    __VUE_HMR_RUNTIME__.updateBlogCategory(categoriesMap);
-  });
+export const categoriesMap = {"category":{"/":{"path":"/category/","map":{}}},"tag":{"/":{"path":"/tag/","map":{"手记":{"path":"/tag/%E6%89%8B%E8%AE%B0/","indexes":[0]}}}}};
 

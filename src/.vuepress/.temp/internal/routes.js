@@ -2,33 +2,18 @@ export const redirects = JSON.parse("{}")
 
 export const routes = Object.fromEntries([
   ["/", { loader: () => import(/* webpackChunkName: "index.html" */"/Users/wucheng/code/openspace/wuxiaobai137.github.io/src/.vuepress/.temp/pages/index.html.js"), meta: {"t":"博客主页","i":"home"} }],
-  ["/intro.html", { loader: () => import(/* webpackChunkName: "intro.html" */"/Users/wucheng/code/openspace/wuxiaobai137.github.io/src/.vuepress/.temp/pages/intro.html.js"), meta: {"v":"/assets/images/cover3.jpg","e":"\n<ul>\n<li>java小学生</li>\n<li>游戏狂热爱好者</li>\n<li>篮球三板斧</li>\n</ul>\n","r":{"minutes":0.08,"words":24},"t":"介绍页","i":"circle-info","y":"a"} }],
-  ["/journal/240604.html", { loader: () => import(/* webpackChunkName: "journal_240604.html" */"/Users/wucheng/code/openspace/wuxiaobai137.github.io/src/.vuepress/.temp/pages/journal/240604.html.js"), meta: {"e":"\n<p>hello</p>\n","r":{"minutes":0.01,"words":2},"t":"0604","y":"a"} }],
-  ["/posts/java/java-240604.html", { loader: () => import(/* webpackChunkName: "posts_java_java-240604.html" */"/Users/wucheng/code/openspace/wuxiaobai137.github.io/src/.vuepress/.temp/pages/posts/java/java-240604.html.js"), meta: {"e":"<p>ceshi</p>\n","r":{"minutes":0,"words":1},"t":"","y":"a"} }],
+  ["/intro.html", { loader: () => import(/* webpackChunkName: "intro.html" */"/Users/wucheng/code/openspace/wuxiaobai137.github.io/src/.vuepress/.temp/pages/intro.html.js"), meta: {"d":1717511478000,"v":"/assets/images/cover3.jpg","e":"\n<ul>\n<li>java小学生</li>\n<li>游戏狂热爱好者</li>\n<li>篮球三板斧</li>\n</ul>\n","r":{"minutes":0.08,"words":24},"t":"介绍页","i":"circle-info","y":"a"} }],
+  ["/journal/240604.html", { loader: () => import(/* webpackChunkName: "journal_240604.html" */"/Users/wucheng/code/openspace/wuxiaobai137.github.io/src/.vuepress/.temp/pages/journal/240604.html.js"), meta: {"d":1717511478000,"e":"\n<p>hello</p>\n","r":{"minutes":0.01,"words":2},"t":"0604","y":"a"} }],
+  ["/journal/240605.html", { loader: () => import(/* webpackChunkName: "journal_240605.html" */"/Users/wucheng/code/openspace/wuxiaobai137.github.io/src/.vuepress/.temp/pages/journal/240605.html.js"), meta: {"g":["手记"],"e":"\n<p>提前一周开始规划端午的行程，超级期待！</p>\n<p>自从有了娃，已经很久没有出去玩了。emm 不对，即使没娃也很少出去玩，哈哈哈。</p>\n<p>这几天工作上的事情还是很多，一件接着一件，头皮发麻！由于商务问题，分包的兄弟都要被遣散，都不知道如何开口。剩下的兄弟是背锅侠，剩下的工作加量不加价，苦逼。</p>\n<p>太多不开心，那就开始准备开心的事吧！出行TodoList准备起来😄</p>\n<ul class=\"task-list-container\">\n<li class=\"task-list-item\"><input type=\"checkbox\" class=\"task-list-item-checkbox\" id=\"task-item-0\" checked=\"checked\" disabled=\"disabled\"><label class=\"task-list-item-label\" for=\"task-item-0\"> 订酒店</label></li>\n<li class=\"task-list-item\"><input type=\"checkbox\" class=\"task-list-item-checkbox\" id=\"task-item-1\" disabled=\"disabled\"><label class=\"task-list-item-label\" for=\"task-item-1\"> 规划路线</label></li>\n<li class=\"task-list-item\"><input type=\"checkbox\" class=\"task-list-item-checkbox\" id=\"task-item-2\" disabled=\"disabled\"><label class=\"task-list-item-label\" for=\"task-item-2\"> 美食路线</label></li>\n<li class=\"task-list-item\"><input type=\"checkbox\" class=\"task-list-item-checkbox\" id=\"task-item-3\" disabled=\"disabled\"><label class=\"task-list-item-label\" for=\"task-item-3\"> 娱乐设施</label></li>\n</ul>","r":{"minutes":0.65,"words":196},"t":"[240605] 微凉，期待端午节的到来","y":"a"} }],
+  ["/posts/java/java-240604.html", { loader: () => import(/* webpackChunkName: "posts_java_java-240604.html" */"/Users/wucheng/code/openspace/wuxiaobai137.github.io/src/.vuepress/.temp/pages/posts/java/java-240604.html.js"), meta: {"d":1717511478000,"e":"<p>ceshi</p>\n","r":{"minutes":0,"words":1},"t":"","y":"a"} }],
   ["/404.html", { loader: () => import(/* webpackChunkName: "404.html" */"/Users/wucheng/code/openspace/wuxiaobai137.github.io/src/.vuepress/.temp/pages/404.html.js"), meta: {"t":""} }],
   ["/journal/", { loader: () => import(/* webpackChunkName: "journal_index.html" */"/Users/wucheng/code/openspace/wuxiaobai137.github.io/src/.vuepress/.temp/pages/journal/index.html.js"), meta: {"t":"Journal"} }],
   ["/posts/java/", { loader: () => import(/* webpackChunkName: "posts_java_index.html" */"/Users/wucheng/code/openspace/wuxiaobai137.github.io/src/.vuepress/.temp/pages/posts/java/index.html.js"), meta: {"t":"Java"} }],
   ["/posts/", { loader: () => import(/* webpackChunkName: "posts_index.html" */"/Users/wucheng/code/openspace/wuxiaobai137.github.io/src/.vuepress/.temp/pages/posts/index.html.js"), meta: {"t":"Posts"} }],
   ["/category/", { loader: () => import(/* webpackChunkName: "category_index.html" */"/Users/wucheng/code/openspace/wuxiaobai137.github.io/src/.vuepress/.temp/pages/category/index.html.js"), meta: {"t":"分类","I":false} }],
   ["/tag/", { loader: () => import(/* webpackChunkName: "tag_index.html" */"/Users/wucheng/code/openspace/wuxiaobai137.github.io/src/.vuepress/.temp/pages/tag/index.html.js"), meta: {"t":"标签","I":false} }],
+  ["/tag/%E6%89%8B%E8%AE%B0/", { loader: () => import(/* webpackChunkName: "tag_手记_index.html" */"/Users/wucheng/code/openspace/wuxiaobai137.github.io/src/.vuepress/.temp/pages/tag/手记/index.html.js"), meta: {"t":"标签: 手记","I":false} }],
   ["/article/", { loader: () => import(/* webpackChunkName: "article_index.html" */"/Users/wucheng/code/openspace/wuxiaobai137.github.io/src/.vuepress/.temp/pages/article/index.html.js"), meta: {"t":"文章","I":false} }],
   ["/star/", { loader: () => import(/* webpackChunkName: "star_index.html" */"/Users/wucheng/code/openspace/wuxiaobai137.github.io/src/.vuepress/.temp/pages/star/index.html.js"), meta: {"t":"星标","I":false} }],
   ["/timeline/", { loader: () => import(/* webpackChunkName: "timeline_index.html" */"/Users/wucheng/code/openspace/wuxiaobai137.github.io/src/.vuepress/.temp/pages/timeline/index.html.js"), meta: {"t":"时间轴","I":false} }],
 ]);
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updateRoutes) {
-    __VUE_HMR_RUNTIME__.updateRoutes(routes)
-  }
-  if (__VUE_HMR_RUNTIME__.updateRedirects) {
-    __VUE_HMR_RUNTIME__.updateRedirects(redirects)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ routes, redirects }) => {
-    __VUE_HMR_RUNTIME__.updateRoutes(routes)
-    __VUE_HMR_RUNTIME__.updateRedirects(redirects)
-  })
-}
