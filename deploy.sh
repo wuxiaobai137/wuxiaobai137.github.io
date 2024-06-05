@@ -25,7 +25,7 @@ git commit -m 'deploy'
 
 # 将下面这行替换成自己的仓库地址
 # git push -f git@github.com:wuxiaobai137/wuxiaobai137.github.io.git master:gh-pages   
-git push -f https://github.com/wuxiaobai137/wuxiaobai137.github.io.git master:gh-pages 
+git push -f https://github.com/wuxiaobai137/wuxiaobai137.github.io.git master:gh-pages
 
 
 cd -

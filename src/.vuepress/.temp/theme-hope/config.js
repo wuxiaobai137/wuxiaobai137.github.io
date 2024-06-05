@@ -5,8 +5,6 @@ import { defineCatalogInfoGetter } from "/Users/wucheng/code/openspace/wuxiaobai
 import { h } from "vue"
 import { BlogCategory, BlogHome, BlogType, BloggerInfo, SocialMedias, Timeline, setupBlog } from "/Users/wucheng/code/openspace/wuxiaobai137.github.io/node_modules/.pnpm/vuepress-theme-hope@2.0.0-rc.48_markdown-it@14.1.0_vuepress@2.0.0-rc.13/node_modules/vuepress-theme-hope/lib/bundle/modules/blog/export.js";
 import "/Users/wucheng/code/openspace/wuxiaobai137.github.io/node_modules/.pnpm/vuepress-theme-hope@2.0.0-rc.48_markdown-it@14.1.0_vuepress@2.0.0-rc.13/node_modules/vuepress-theme-hope/lib/bundle/modules/blog/styles/all.scss";
-import { GlobalEncrypt, LocalEncrypt } from "/Users/wucheng/code/openspace/wuxiaobai137.github.io/node_modules/.pnpm/vuepress-theme-hope@2.0.0-rc.48_markdown-it@14.1.0_vuepress@2.0.0-rc.13/node_modules/vuepress-theme-hope/lib/bundle/modules/encrypt/export.js";
-import "/Users/wucheng/code/openspace/wuxiaobai137.github.io/node_modules/.pnpm/vuepress-theme-hope@2.0.0-rc.48_markdown-it@14.1.0_vuepress@2.0.0-rc.13/node_modules/vuepress-theme-hope/lib/bundle/modules/encrypt/styles/all.scss"
 
 import "/Users/wucheng/code/openspace/wuxiaobai137.github.io/node_modules/.pnpm/@vuepress+helper@2.0.0-rc.34_vuepress@2.0.0-rc.13/node_modules/@vuepress/helper/lib/client/styles/normalize.css";
 import "/Users/wucheng/code/openspace/wuxiaobai137.github.io/node_modules/.pnpm/vuepress-theme-hope@2.0.0-rc.48_markdown-it@14.1.0_vuepress@2.0.0-rc.13/node_modules/vuepress-theme-hope/lib/bundle/styles/all.scss";
@@ -42,8 +40,6 @@ export default defineClientConfig({
 
     app.component("BloggerInfo", BloggerInfo);
     app.component("SocialMedias", SocialMedias);
-    app.component("GlobalEncrypt", GlobalEncrypt);
-    app.component("LocalEncrypt", LocalEncrypt);
   },
   setup: () => {
     setupDarkmode();
